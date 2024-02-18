@@ -60,7 +60,7 @@ class Auto:
                 
                 if (i is not None):
                     
-                    if (i.registro != self.registro):
+                    if (i.registro != self.asientos.registro):
                         
                         return "Las piezas no son originales"
                     
