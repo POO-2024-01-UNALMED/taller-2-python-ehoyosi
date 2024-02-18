@@ -8,7 +8,7 @@ class Asiento:
         
     def cambiarColor(self, color):
 
-        if (self.color == "rojo" or self.color == "verde" or self.color == "amarillo" or self.color == "negro" or self.color == "blanco") :
+        if (color == "rojo" or color == "verde" or color == "amarillo" or color == "negro" or color == "blanco") :
             
             self.color = color
                        
